@@ -71,10 +71,11 @@ public class GestionVente {
 	
 	public void Connexion() {
 		try {
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/GESTIONPHARMACIE", "root", "djabar00");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/GESTIONPHARMACIE", "****", "******");
 		} catch (Exception e) {
-            System.out.println("Connection failed!");
-            e.printStackTrace();		}
+            		System.out.println("Connection failed!");
+            		e.printStackTrace();		
+		}
 	}
 	
 	private void Table() {
